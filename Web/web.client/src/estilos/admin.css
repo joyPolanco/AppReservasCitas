@@ -1,0 +1,166 @@
+﻿.admin-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8fafc;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Formulario */
+.admin-form-container {
+    width: 60%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+}
+
+/* Título */
+.admin-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #4f46e5;
+    margin-bottom: 30px;
+}
+
+/* Grupos de formulario */
+.admin-form-group {
+    margin-bottom: 20px;
+}
+
+.admin-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* Inputs */
+.admin-input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    outline: none;
+    font-size: 1rem;
+    background-color: #f8fafc;
+    color: #334155;
+    transition: all 0.3s ease;
+}
+
+    .admin-input:focus {
+        border-color: #4f46e5;
+        box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+    }
+
+/* Mensajes */
+.admin-error {
+    color: #dc2626;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.admin-success {
+    color: #16a34a;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Botón */
+.admin-submit-btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    background-color: #4f46e5;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+    .admin-submit-btn:hover {
+        background-color: #4338ca;
+        transform: translateY(-1px);
+    }
+
+/* Texto de redirección */
+.admin-redirect-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+    .admin-redirect-text a {
+        color: #4f46e5;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+        .admin-redirect-text a:hover {
+            text-decoration: underline;
+
+
+        }
+/* En tu archivo admin.css */
+
+/* Contenedor principal del calendario */
+.sx-react-calendar-wrapper {
+    width: 100%;
+    height: 99%;
+    overflow: auto;
+    zoom: 1.2; /* 1 = 100%, 1.2 = 120%, etc. */
+}
+
+/* Aumentar altura de las filas de tiempo */
+
+/* Aumentar altura de las celdas de tiempo */
+.sx__time-grid-cell {
+    height: 90px !important; /* Mismo valor que sx__time-grid__time */
+    min-height: 100px !important;
+    overflow: scroll;
+    transform: scale(1.2); /* Escala al 120% */
+    transform-origin: 0 0;
+}
+
+/* Ajustar altura de los eventos */
+.sx__event {
+    min-height: 6px !important; /* 80px - 4px de margen */
+    margin-bottom: 4px !important;
+    
+}
+
+/* Asegurar que el contenido del evento sea visible */
+.sx__event-content {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Opcional: Ajustar el header de horas si es necesario */
+.sx__time-col {
+    min-width: 50px !important;
+}
+
+/* Ajustar el grid principal */
+.sx__time-grid {
+    grid-auto-rows: 200px !important; /* Mismo valor que las celdas */
+}
+
+.calendar-user {
+    height: 90vh;
+}

@@ -1,0 +1,53 @@
+{
+  "name": "web.client",
+  "private": true,
+  "version": "0.0.0",
+  "config": {
+    "defaultLanguage": "es-ES"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.19",
+    "@fullcalendar/react": "^6.1.19",
+    "@schedule-x/calendar": "^2.36.0",
+    "@schedule-x/events-service": "^2.36.0",
+    "@schedule-x/react": "^2.36.0",
+    "@schedule-x/theme-default": "^2.36.0",
+    "date-fns": "^4.1.0",
+    "dayschedule-widget": "^1.2.3",
+    "fullcalendar": "^6.1.19",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.539.0",
+    "rc-time-picker": "^3.7.3",
+    "react": "^19.1.0",
+    "react-big-calendar": "^1.19.4",
+    "react-calendar": "^6.0.0",
+    "react-calendly": "^4.4.0",
+    "react-dom": "^19.1.0",
+    "react-multi-date-picker": "^4.5.2",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^7.8.0",
+    "react-time-picker": "^8.0.2",
+    "react-time-range": "^1.0.4",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.22.4",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^7.0.4"
+  }
+}

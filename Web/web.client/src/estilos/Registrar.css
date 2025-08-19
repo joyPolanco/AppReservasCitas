@@ -1,0 +1,123 @@
+﻿/* Contenedor principal */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100VH;
+    background-color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    overflow:hidden;
+}
+
+/* Formulario */
+.form-container {
+    width: 45%;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:95%;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    border: 1px solid #e2e8f0;
+}
+   
+    /* Imagen lateral */
+    .img-container {
+        width: 50%;
+        background-image: url('../../public/6538623.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 12px 12px 0;
+    }
+
+/* Título */
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    width:80%;
+    color: #848af2;
+    margin-bottom: 25px;
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 6px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #2d3748;
+}
+
+/* Inputs */
+.input {
+    width: 400px !important;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e0;
+    outline: none;
+    font-size: 1rem;
+    height:20%!important;
+    background-color: #f5f6ff;
+    color: #3182ce;
+    transition: all 0.3s ease;
+}
+
+    .input:focus {
+        border-color: #3182ce;
+        box-shadow: 0 0 6px rgba(49, 130, 206, 0.5);
+    }
+
+/* Mensajes */
+.error {
+    color: #e53e3e;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.success {
+    color: #38a169;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Botón */
+.submit-btn {
+    width: 100%;
+    margin-top:20px;
+    padding: 14px;
+    background-color: #3182ce;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .submit-btn:hover {
+        background-color: #2c5282;
+        transform: translateY(-2px);
+    }
+
+/* Texto de redirección */
+.redirect-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+    .redirect-text a {
+        color: #3182ce;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+        .redirect-text a:hover {
+            text-decoration: underline;
+        }

@@ -1,0 +1,50 @@
+﻿.calendar-container {
+    width: 100%;
+    height: 85vh; /* altura del 85% de la pantalla */
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow:hidden;
+}
+
+.fc-header-toolbar {
+    margin-bottom: 15px;
+}
+
+.fc .fc-daygrid-event,
+.fc .fc-timegrid-event {
+    border-radius: 8px;
+    padding: 6px 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.fc .available {
+    background-color: #4caf50 !important;
+    border-color: #2e7d32 !important;
+    color: #fff !important;
+}
+
+.fc .reserved {
+    background-color: #ccc !important;
+    border-color: #999 !important;
+    color: #333 !important;
+}
+
+.fc .fc-event-title {
+    font-size: 0.95rem;
+    white-space: normal;
+}
+
+.fc .fc-daygrid-day {
+    height: auto !important;
+    min-height: 80px; /* altura mínima de casillas en vista de mes */
+}
+
+.fc .fc-timegrid-slot {
+    height: 57px; /* altura de cada franja horaria en vista de semana/día */
+}

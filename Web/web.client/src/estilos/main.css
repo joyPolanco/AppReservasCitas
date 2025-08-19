@@ -1,0 +1,22 @@
+﻿#root {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.app-container {
+    display: flex;
+    height: 95%;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+}
+
+
+
+
+.main-content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    height:100vh;
+}

@@ -1,0 +1,136 @@
+﻿/* Contenedor general */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado y columnas */
+.header {
+    display: flex;
+    gap: 20px;
+}
+
+/* Sección izquierda (calendario + checkout) */
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Checkout */
+.checkout {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+    .checkout h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+
+.checkoutList {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.checkoutItem {
+    margin: 5px 0;
+}
+
+/* Botones del checkout */
+.checkoutButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttonSuccess {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .buttonSuccess:hover {
+        background-color: #45a049;
+    }
+
+.buttonDanger {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .buttonDanger:hover {
+        background-color: #da190b;
+    }
+
+/* Área de agenda */
+.agendaBoard {
+    display: flex;
+    gap: 10px;
+}
+
+/* Columna de horas */
+.timeColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 80px;
+    text-align: right;
+    font-size: 0.85em;
+    color: #333;
+}
+
+.timeLabel {
+    height: 20px;
+    line-height: 20px;
+}
+
+/* Área de slots */
+.slotsArea {
+    position: relative;
+    flex-grow: 1;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Cada slot */
+.slot {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+    .slot.available {
+        background-color: #9fd3c7;
+        color: #000;
+    }
+
+    .slot.selected {
+        background-color: #34699A;
+        color: #fff;
+    }
+
+    .slot.unavailable {
+        background-color: #ccc;
+        color: #888;
+        cursor: not-allowed;
+    }

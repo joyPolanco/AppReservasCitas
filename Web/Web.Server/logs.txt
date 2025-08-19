@@ -1,0 +1,1 @@
+﻿8/19/2025 5:09:59 PM [Error] Debe inyectarse IRepositorioLog antes de usar DatabaseLogger.
