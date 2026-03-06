@@ -253,24 +253,35 @@ Permite cambiar dinámicamente el tipo de registro utilizado por el sistema de l
 - Strategy
 
 ---
-
 # Capturas del sistema
 
 ## Vista de usuario
 
 Interfaz para consultar horarios disponibles, reservar citas y gestionar reservas.
-<img width="408" height="222" alt="image" src="https://github.com/user-attachments/assets/69e2ce05-9f33-41d9-a3ef-6992bbccbddd" />
-<img width="399" height="240" alt="image" src="https://github.com/user-attachments/assets/a1defbbb-3054-4517-a896-019844dee8a6" />
-<img width="396" height="208" alt="image" src="https://github.com/user-attachments/assets/be9c695a-6dc4-4138-b643-d3374214f635" />
-<img width="410" height="213" alt="image" src="https://github.com/user-attachments/assets/d96ab41e-4d57-4781-b4f1-70984c1c1dfb" />
-<img width="402" height="205" alt="image" src="https://github.com/user-attachments/assets/e3feab58-e979-4f95-932a-f5bd198b2449" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/69e2ce05-9f33-41d9-a3ef-6992bbccbddd" width="300"/>
+  <img src="https://github.com/user-attachments/assets/a1defbbb-3054-4517-a896-019844dee8a6" width="300"/>
+  <img src="https://github.com/user-attachments/assets/be9c695a-6dc4-4138-b643-d3374214f635" width="300"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d96ab41e-4d57-4781-b4f1-70984c1c1dfb" width="300"/>
+  <img src="https://github.com/user-attachments/assets/e3feab58-e979-4f95-932a-f5bd198b2449" width="300"/>
+</p>
 
 
 ## Vista de administrador
 
 Panel de control para configurar turnos, estaciones de atención y parámetros del sistema.
-<img width="405" height="198" alt="image" src="https://github.com/user-attachments/assets/724f466c-56bd-4c54-ab2d-2d56df178347" />
-<img width="401" height="209" alt="image" src="https://github.com/user-attachments/assets/36a053cf-920b-4a65-90ca-872d5a7952a0" />
-<img width="390" height="194" alt="image" src="https://github.com/user-attachments/assets/2d2365df-7c9c-474a-91ab-aee0b62aa052" />
-<img width="407" height="219" alt="image" src="https://github.com/user-attachments/assets/b463833a-bdaf-4847-8175-99a2f7b7333c" />
-<img width="400" height="199" alt="image" src="https://github.com/user-attachments/assets/0a7a4f4f-0f5b-4a8d-8fba-48a53defd18c" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/724f466c-56bd-4c54-ab2d-2d56df178347" width="300"/>
+  <img src="https://github.com/user-attachments/assets/36a053cf-920b-4a65-90ca-872d5a7952a0" width="300"/>
+  <img src="https://github.com/user-attachments/assets/2d2365df-7c9c-474a-91ab-aee0b62aa052" width="300"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b463833a-bdaf-4847-8175-99a2f7b7333c" width="300"/>
+  <img src="https://github.com/user-attachments/assets/0a7a4f4f-0f5b-4a8d-8fba-48a53defd18c" width="300"/>
+</p>
