@@ -1,4 +1,4 @@
-```markdown
+
 # Sistema de Reservas de Citas
 
 ## Descripción del Proyecto
@@ -274,5 +274,3 @@ Panel de control para configurar turnos, estaciones de atención y parámetros d
 <img width="390" height="194" alt="image" src="https://github.com/user-attachments/assets/2d2365df-7c9c-474a-91ab-aee0b62aa052" />
 <img width="407" height="219" alt="image" src="https://github.com/user-attachments/assets/b463833a-bdaf-4847-8175-99a2f7b7333c" />
 <img width="400" height="199" alt="image" src="https://github.com/user-attachments/assets/0a7a4f4f-0f5b-4a8d-8fba-48a53defd18c" />
-
-```
